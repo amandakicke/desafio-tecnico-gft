@@ -18,15 +18,16 @@ public class Main {
 		
 		if (numero == escolha) {
 			System.out.println("Você acertou");
-		} else 
-			sc.next();
-			System.out.println("Escolha outro número de 0 a 10");
-			escolha = sc.nextInt();
-			
-			
-			
+		}
+			else { 
+				do  {
+					System.out.println("Escolha outro número de 0 a 10");
+					sc.nextInt();
+				} while (numero != escolha);
 				
-					
+									
+			}
+	
 					
 				
 		 
