@@ -6,7 +6,7 @@ public class ICMS implements imposto {
 
 	@Override
 	public double calculaImposto() {
-		return calculaImposto() += calculaImposto * (30/100);
+		return valor += this.calculaImposto() * (30/100);
 	}
 
 	
